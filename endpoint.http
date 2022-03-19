@@ -1,0 +1,13 @@
+### POST
+POST http://localhost:8080/v1.0/persons/publish
+Content-Type: application/json
+
+{
+  "name": "vanya",
+  "age": 30,
+  "count": 2
+}
+
+### GET
+GET http://localhost:8080/v1.0/persons/hello
+
